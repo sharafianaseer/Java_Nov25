@@ -1,0 +1,108 @@
+Java
+1. Maintainable
+2. Readable
+3. Write once run anywhere -WORA - platform independant
+4. handle exceptions
+5. Collection API concepts.
+6. Secure
+7. Robust
+OOP - objects has properties and behaviours.
+Java is not 100% obje oriented bcz of primitive data type.
+Functional programming was introduced in JAVA 8. and it is a stable version
+Variable: Value can be changed at any time, and a container to hold data
+
+An operating system (OS) is the main software that manages all the hardware 
+and software on a computer or device. It acts as a bridge between you, the applications, and the computer’s hardware.
+
+Linux -> open source, Security ,stability and reliability( so most of the servers, cloud applications are based on linux).
+Docker, Git, K8's - all are based on linux.
+
+Unix based -MacOS
+Unix like - Android,LInux, Ubuntu
+
+OS has 2 parts : Kernal(kernel is the core part of the operating system and handles the process) and shell (The shell is a
+ user interface that allows you to interact with the operating system.
+It takes your commands, sends them to the kernel, and displays the result.)
+
+Windows -> Shell like , (CMD, powershell)
+
+CMD commands:
+creating a new file: touch filename  (by default it is .txt)
+for listing the filenames: ls
+to edit file : vi filename -> click on i to insert -> type data -> for saving press esc ->the type :wq and enter
+:w -> save only 
+:q --> exit only.
+:q! -> quit without saving.
+:x  --> save and exit
+to view the data inside the file : cat filename
+clear: to clear the screen.
+present working directory : pwd
+to copy from one file to another : cp file1 file2
+rename file : mv file1 file2
+delete file: rm filename
+delete folder: rmdir folder
+delete folder including files in it: rm -r folder
+
+ls -l
+permissions   memory owner grp-of-owner  size file-created/deleted filename
+ls -a  -> shows all files including hidden
+ 
+absolute path -> address from the root directory
+relative path -> from the current directory
+
+wc filename  -> word count
+no_of_lines   no_of_words   bytes  filename
+
+to find a word inside a file: grep word filename
+grep "word" file1 file2  -> multiple files
+grep "word" *      -> in the whole directory
+grep -w "word" filename   -> search the whole word.
+
+to view data in sorted order  -> sort file1
+sort -r file1
+
+permissions: owner  group  others  
+r- read
+w- write
+x- execute
+
+giving permissions : chmod permission_code file1
+
+0-> no permission
+1-> execute
+2-> write
+4-> read
+
+eg: chmod 700 myfile.txt
+
+
+while creating an object , when we use new keyword, it allocates memory while running JVM. 
+
+Instance variable -> declared inside an instance , can be accessed by the methods inside the class
+Local variable: declared inside a method and the scope is within the method only.
+
+Constructor:
+1. method used to initialize the variables in a object
+2. doesnot return a value
+3. same name as class
+4. automatically it is called.
+5. If constructor is absent, java will create a constructor by default.
+
+2 types constructor: default and parameterised. if we give parameterised array, we need to define default constructor also.
+
+Arrays: Single and multidimensional.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
