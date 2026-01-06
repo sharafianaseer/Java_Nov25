@@ -46,7 +46,6 @@ public class SortingArray {
                  array[i] = array[j];
                  array[j] = temp;
              }
-
          }
      }
      System.out.print("\nDescending order :");
