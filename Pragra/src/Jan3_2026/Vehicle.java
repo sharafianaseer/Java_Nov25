@@ -13,10 +13,6 @@ public class Vehicle {
         this.color=color;
     }
 
-     Vehicle() {
-
-    }
-
 
     @Override
     public String toString() {
