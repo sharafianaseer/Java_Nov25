@@ -3,7 +3,7 @@ package Jan_13.Bank;
 public class BankMain {
 
     public static void main(String[] args){
-     BankAccount bk= new BankAccount(10000);
+     BankAccount bk= new BankAccount(100);
 
      bk.deposit(500);
      bk.deposit(-2000);

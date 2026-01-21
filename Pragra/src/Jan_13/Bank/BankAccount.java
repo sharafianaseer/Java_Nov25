@@ -25,25 +25,25 @@ public class BankAccount {
             System.out.println("The amount is negative");
         }
         else {
-            balance+=amount;
-            System.out.println("Your current balance is " +balance);
+            setBalance(getBalance()+amount);
+            System.out.println("Your current balance is " +getBalance());
         }
     }
 
     public void withdrawal(double amount)
     {
-        if(amount>balance)
+        if(amount>getBalance())
         {
             System.out.println("No sufficient balance");
         }
         else {
-            balance-=amount;
-            System.out.println("Your current balance is " +balance);
+            setBalance(getBalance()-amount);
+            System.out.println("Your current balance is " +getBalance());
         }
     }
 
     public void showBalance()
     {
-        System.out.println("Your current balance is "+balance);
+        System.out.println("Your current balance is "+getBalance());
     }
 }
