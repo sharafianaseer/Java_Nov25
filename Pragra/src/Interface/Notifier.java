@@ -2,5 +2,5 @@ package Interface;
 
 public interface Notifier {
 
-    public void notifyUser(String message);
+     void notifyUser(String message);
 }
