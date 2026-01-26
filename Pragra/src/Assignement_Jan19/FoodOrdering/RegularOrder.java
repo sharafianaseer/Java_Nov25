@@ -1,4 +1,4 @@
-package Assignement_Jan19;
+package Assignement_Jan19.FoodOrdering;
 
 public class RegularOrder extends Order{
     public RegularOrder(int id, double amount) {
@@ -7,6 +7,6 @@ public class RegularOrder extends Order{
 
     @Override
     public double calculateFinalAmount() {
-        return (getAmount()*.9);
+        return (getAmount());
     }
 }

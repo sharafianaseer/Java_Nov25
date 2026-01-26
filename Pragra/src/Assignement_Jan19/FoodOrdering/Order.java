@@ -1,4 +1,4 @@
-package Assignement_Jan19;
+package Assignement_Jan19.FoodOrdering;
 
 public abstract class Order {
 
@@ -14,6 +14,10 @@ public abstract class Order {
     public double getAmount()
     {
         return this.amount;
+    }
+    public int getOrderId()
+    {
+        return this.orderId;
     }
 
     public abstract double calculateFinalAmount();
